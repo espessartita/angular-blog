@@ -9,6 +9,7 @@ import { dataMock } from '../../data/dataMock'
 })
 export class ContentComponent implements OnInit {
   photoCover: string = ""
+  author: string = ""
   contentTitle: string = ""
   contentDescription: string = ""
   private id:string | null = "0"
@@ -30,5 +31,6 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photo
+    this.author = result.author
   }
 }
