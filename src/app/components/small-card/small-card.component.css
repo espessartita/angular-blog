@@ -14,7 +14,7 @@
 .small-card__text{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .small-card__title{

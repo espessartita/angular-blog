@@ -1,24 +1,21 @@
 <div class="container__big-card">
 
   <div class="big-card__photo">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fgelatologia.com%2Fwp-content%2Fuploads%2F2020%2F07%2Fplaceholder.png%3Fssl%3D1&f=1&nofb=1&ipt=b0a005374eb67b51e19eb9ad4ba77e26bc2803c9e143b3145f0f5da488ad0cbf&ipo=images"
-      alt="placeholder"
+    <img src="{{ photoCover }}"
       height="200px"
       />
   </div>
 
   <div class="big-card__author">
-    <span><a href="#" target="_blank" rel="noopener noreferrer">Marcus Tullius Cicero</a></span>
+    <span><a href="#" target="_blank" rel="noopener noreferrer">{{ author }}</a></span>
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#" target="_blank" rel="noopener noreferrer">Lorem impsum dolor sit angular</a></h1>
+    <h1><a href="#" target="_blank" rel="noopener noreferrer">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
-    <p><a href="#" target="_blank" rel="noopener noreferrer">
-      Fusce hendrerit orci odio, quis eleifend est laoreet ut. Sed sagittis nec orci euismod hendrerit. Aliquam ac maximus neque. Duis sed tellus ut erat fermentum congue. Ut condimentum consectetur odio sed egestas. Morbi ac libero.</a>
-    </p>
+    <p><a href="#" target="_blank" rel="noopener noreferrer">{{ cardDescription }}</a></p>
   </div>
 
 </div>
